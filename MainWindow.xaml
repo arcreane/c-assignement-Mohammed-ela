@@ -8,7 +8,7 @@
         Title="Puissance 4" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" /> <!-- Pour les boutons -->
+            <RowDefinition Height="Auto" /> 
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
@@ -26,21 +26,154 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         
-        <!-- Configuration de trois cellules comme exemple -->
-        <Border Grid.Row="1" Grid.Column="0" Background="Transparent">
-            <Ellipse Name="Cell00" Fill="LightGray" Visibility="Hidden"/>
-        </Border>
-        <Border Grid.Row="1" Grid.Column="1" Background="Transparent">
-            <Ellipse Name="Cell01" Fill="LightGray" Visibility="Hidden"/>
-        </Border>
-        <Border Grid.Row="1" Grid.Column="2" Background="Transparent">
-            <Ellipse Name="Cell02" Fill="LightGray" Visibility="Hidden"/>
-        </Border>
+       
+       
+       
+<Border Grid.Row="1" Grid.Column="0" Background="Transparent">
+    <Ellipse Name="Cell00" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="1" Grid.Column="1" Background="Transparent">
+    <Ellipse Name="Cell01" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="1" Grid.Column="2" Background="Transparent">
+    <Ellipse Name="Cell02" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="1" Grid.Column="3" Background="Transparent">
+    <Ellipse Name="Cell03" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="1" Grid.Column="4" Background="Transparent">
+    <Ellipse Name="Cell04" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="1" Grid.Column="5" Background="Transparent">
+    <Ellipse Name="Cell05" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="1" Grid.Column="6" Background="Transparent">
+    <Ellipse Name="Cell06" Fill="LightGray" Visibility="Hidden"/>
+</Border>
 
-        <!-- Boutons de colonne pour placer les jetons -->
+<!-- Deuxième rang -->
+<Border Grid.Row="2" Grid.Column="0" Background="Transparent">
+    <Ellipse Name="Cell10" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="2" Grid.Column="1" Background="Transparent">
+    <Ellipse Name="Cell11" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="2" Grid.Column="2" Background="Transparent">
+    <Ellipse Name="Cell12" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="2" Grid.Column="3" Background="Transparent">
+    <Ellipse Name="Cell13" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="2" Grid.Column="4" Background="Transparent">
+    <Ellipse Name="Cell14" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="2" Grid.Column="5" Background="Transparent">
+    <Ellipse Name="Cell15" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="2" Grid.Column="6" Background="Transparent">
+    <Ellipse Name="Cell16" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+
+<!-- Troisième rang -->
+<Border Grid.Row="3" Grid.Column="0" Background="Transparent">
+    <Ellipse Name="Cell20" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="3" Grid.Column="1" Background="Transparent">
+    <Ellipse Name="Cell21" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="3" Grid.Column="2" Background="Transparent">
+    <Ellipse Name="Cell22" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="3" Grid.Column="3" Background="Transparent">
+    <Ellipse Name="Cell23" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="3" Grid.Column="4" Background="Transparent">
+    <Ellipse Name="Cell24" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="3" Grid.Column="5" Background="Transparent">
+    <Ellipse Name="Cell25" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="3" Grid.Column="6" Background="Transparent">
+    <Ellipse Name="Cell26" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<!-- Quatrième rang -->
+<Border Grid.Row="4" Grid.Column="0" Background="Transparent">
+    <Ellipse Name="Cell30" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="4" Grid.Column="1" Background="Transparent">
+    <Ellipse Name="Cell31" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="4" Grid.Column="2" Background="Transparent">
+    <Ellipse Name="Cell32" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="4" Grid.Column="3" Background="Transparent">
+    <Ellipse Name="Cell33" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="4" Grid.Column="4" Background="Transparent">
+    <Ellipse Name="Cell34" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="4" Grid.Column="5" Background="Transparent">
+    <Ellipse Name="Cell35" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="4" Grid.Column="6" Background="Transparent">
+    <Ellipse Name="Cell36" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+
+<!-- Cinquième rang -->
+<Border Grid.Row="5" Grid.Column="0" Background="Transparent">
+    <Ellipse Name="Cell40" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="5" Grid.Column="1" Background="Transparent">
+    <Ellipse Name="Cell41" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="5" Grid.Column="2" Background="Transparent">
+    <Ellipse Name="Cell42" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="5" Grid.Column="3" Background="Transparent">
+    <Ellipse Name="Cell43" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="5" Grid.Column="4" Background="Transparent">
+    <Ellipse Name="Cell44" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="5" Grid.Column="5" Background="Transparent">
+    <Ellipse Name="Cell45" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="5" Grid.Column="6" Background="Transparent">
+    <Ellipse Name="Cell46" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+
+<!-- Sixième rang -->
+<Border Grid.Row="6" Grid.Column="0" Background="Transparent">
+    <Ellipse Name="Cell50" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="6" Grid.Column="1" Background="Transparent">
+    <Ellipse Name="Cell51" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="6" Grid.Column="2" Background="Transparent">
+    <Ellipse Name="Cell52" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="6" Grid.Column="3" Background="Transparent">
+    <Ellipse Name="Cell53" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="6" Grid.Column="4" Background="Transparent">
+    <Ellipse Name="Cell54" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="6" Grid.Column="5" Background="Transparent">
+    <Ellipse Name="Cell55" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+<Border Grid.Row="6" Grid.Column="6" Background="Transparent">
+    <Ellipse Name="Cell56" Fill="LightGray" Visibility="Hidden"/>
+</Border>
+
+
+
+        <!-- Boutons pour placer les jetons -->
         <Button Grid.Row="0" Grid.Column="0" Click="ColumnClick" Tag="0"/>
         <Button Grid.Row="0" Grid.Column="1" Click="ColumnClick" Tag="1"/>
         <Button Grid.Row="0" Grid.Column="2" Click="ColumnClick" Tag="2"/>
-        <!-- Continuez pour les autres colonnes... -->
+        <Button Grid.Row="0" Grid.Column="3" Click="ColumnClick" Tag="3"/>
+        <Button Grid.Row="0" Grid.Column="4" Click="ColumnClick" Tag="4"/>
+        <Button Grid.Row="0" Grid.Column="5" Click="ColumnClick" Tag="5"/>
+        <Button Grid.Row="0" Grid.Column="6" Click="ColumnClick" Tag="6"/>
     </Grid>
 </Window>
