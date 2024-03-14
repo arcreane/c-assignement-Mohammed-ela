@@ -8,7 +8,7 @@
         Title="Puissance 4" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
-            
+            <RowDefinition Height="Auto" /> <!-- Pour les boutons -->
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
@@ -17,7 +17,6 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
@@ -26,5 +25,22 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
+        
+        <!-- Configuration de trois cellules comme exemple -->
+        <Border Grid.Row="1" Grid.Column="0" Background="Transparent">
+            <Ellipse Name="Cell00" Fill="LightGray" Visibility="Hidden"/>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="1" Background="Transparent">
+            <Ellipse Name="Cell01" Fill="LightGray" Visibility="Hidden"/>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="2" Background="Transparent">
+            <Ellipse Name="Cell02" Fill="LightGray" Visibility="Hidden"/>
+        </Border>
+
+        <!-- Boutons de colonne pour placer les jetons -->
+        <Button Grid.Row="0" Grid.Column="0" Click="ColumnClick" Tag="0"/>
+        <Button Grid.Row="0" Grid.Column="1" Click="ColumnClick" Tag="1"/>
+        <Button Grid.Row="0" Grid.Column="2" Click="ColumnClick" Tag="2"/>
+        <!-- Continuez pour les autres colonnes... -->
     </Grid>
 </Window>
